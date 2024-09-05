@@ -59,11 +59,11 @@ fun MyApp() {
         )
         OutlinedTextField(
             value = "",
-            onValueChange = { /*TODO*/ },
+            onValueChange = { /**/ },
             modifier = appModifier
         )
         Button(
-            onClick = {/*TODO*/},
+            onClick = {/**/},
             colors = ButtonDefaults.buttonColors(
                 containerColor = MaterialTheme.colorScheme.primary,
                 contentColor = MaterialTheme.colorScheme.tertiary
